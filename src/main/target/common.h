@@ -27,12 +27,12 @@
 #define I2C2_OVERCLOCK false
 #define USE_I2C_PULLUP          // Enable built-in pullups on all boards in case external ones are too week
 
-#define USE_RX_PPM
-#define USE_SERIAL_RX
-#define USE_SERIALRX_SPEKTRUM   // Cheap and fairly common protocol
-#define USE_SERIALRX_SBUS       // Very common protocol
-#define USE_SERIALRX_IBUS       // Cheap FlySky & Turnigy receivers
-#define USE_SERIALRX_FPORT
+//#define USE_RX_PPM
+//#define USE_SERIAL_RX
+//#define USE_SERIALRX_SPEKTRUM   // Cheap and fairly common protocol
+//#define USE_SERIALRX_SBUS       // Very common protocol
+//#define USE_SERIALRX_IBUS       // Cheap FlySky & Turnigy receivers
+//#define USE_SERIALRX_FPORT
 
 #define COMMON_DEFAULT_FEATURES (FEATURE_TX_PROF_SEL)
 
@@ -55,9 +55,9 @@
 #define USE_GPS
 #define USE_GPS_PROTO_UBLOX
 #define USE_NAV
-#define USE_TELEMETRY
-#define USE_TELEMETRY_LTM
-#define USE_TELEMETRY_FRSKY
+//#define USE_TELEMETRY
+//#define USE_TELEMETRY_LTM
+//#define USE_TELEMETRY_FRSKY
 
 #if defined(STM_FAST_TARGET)
 #define SCHEDULER_DELAY_LIMIT           10
@@ -135,11 +135,11 @@
 #define USE_GPS_PROTO_MTK
 #define NAV_GPS_GLITCH_DETECTION
 #define NAV_NON_VOLATILE_WAYPOINT_STORAGE
-#define USE_TELEMETRY_HOTT
-#define USE_TELEMETRY_IBUS
-#define USE_TELEMETRY_MAVLINK
-#define USE_TELEMETRY_SMARTPORT
-#define USE_TELEMETRY_CRSF
+//#define USE_TELEMETRY_HOTT
+//#define USE_TELEMETRY_IBUS
+//#define USE_TELEMETRY_MAVLINK
+//#define USE_TELEMETRY_SMARTPORT
+//#define USE_TELEMETRY_CRSF
 #define USE_MSP_OVER_TELEMETRY
 // These are rather exotic serial protocols
 #define USE_RX_MSP

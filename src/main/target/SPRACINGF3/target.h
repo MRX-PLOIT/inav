@@ -21,8 +21,8 @@
 
 #define LED0                    PB3
 
-#define BEEPER                  PC15
-#define BEEPER_INVERTED
+//#define BEEPER                  PC15
+//#define BEEPER_INVERTED
 
 #define USE_EXTI
 #define GYRO_INT_EXTI            PC13
@@ -56,8 +56,8 @@
 #define USE_UART1
 #define USE_UART2
 #define USE_UART3
-#define USE_SOFTSERIAL1
-#define USE_SOFTSERIAL2
+//#define USE_SOFTSERIAL1
+//#define USE_SOFTSERIAL2
 #define SERIAL_PORT_COUNT       5
 
 #define UART1_TX_PIN            PA9
@@ -69,10 +69,10 @@
 #define UART3_TX_PIN            PB10 // PB10 (AF7)
 #define UART3_RX_PIN            PB11 // PB11 (AF7)
 
-#define SOFTSERIAL_1_RX_PIN     PB4
-#define SOFTSERIAL_1_TX_PIN     PB5
-#define SOFTSERIAL_2_RX_PIN     PB0
-#define SOFTSERIAL_2_TX_PIN     PB1
+//#define SOFTSERIAL_1_RX_PIN     PB4
+//#define SOFTSERIAL_1_TX_PIN     PB5
+//#define SOFTSERIAL_2_RX_PIN     PB0
+//#define SOFTSERIAL_2_TX_PIN     PB1
 
 #define USE_I2C
 #define USE_I2C_DEVICE_1
@@ -93,7 +93,7 @@
 #define CURRENT_METER_ADC_CHANNEL       ADC_CHN_2
 #define RSSI_ADC_CHANNEL                ADC_CHN_3
 
-#define USE_LED_STRIP
+//#define USE_LED_STRIP
 #define WS2811_PIN                      PA8
 
 #define USE_RANGEFINDER
