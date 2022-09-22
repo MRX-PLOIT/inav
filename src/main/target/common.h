@@ -131,6 +131,8 @@
 #define USE_STATS
 #define USE_CMS
 #define CMS_MENU_OSD
+#define USE_GPS
+#define USE_GPS_PROTO_UBLOX
 #define USE_GPS_PROTO_NMEA
 #define USE_GPS_PROTO_MTK
 #define NAV_GPS_GLITCH_DETECTION
@@ -144,13 +146,13 @@
 // These are rather exotic serial protocols
 #define USE_RX_MSP
 //#define USE_MSP_RC_OVERRIDE
-#define USE_SERIALRX_SUMD
-#define USE_SERIALRX_SUMH
-#define USE_SERIALRX_XBUS
-#define USE_SERIALRX_JETIEXBUS
-#define USE_SERIALRX_CRSF
+//#define USE_SERIALRX_SUMD
+//#define USE_SERIALRX_SUMH
+//#define USE_SERIALRX_XBUS
+//#define USE_SERIALRX_JETIEXBUS
+//#define USE_SERIALRX_CRSF
 #define USE_PWM_SERVO_DRIVER
-#define USE_SERIAL_PASSTHROUGH
+//#define USE_SERIAL_PASSTHROUGH
 #define NAV_MAX_WAYPOINTS       60
 #define USE_RCDEVICE
 

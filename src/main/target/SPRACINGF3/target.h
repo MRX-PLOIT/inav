@@ -37,18 +37,18 @@
 #define USE_BARO
 #define BARO_I2C_BUS            BUS_I2C1
 #define USE_BARO_MS5611
-#define USE_BARO_BMP085
-#define USE_BARO_BMP280
+//#define USE_BARO_BMP085
+//#define USE_BARO_BMP280
 
 #define USE_MAG
 #define MAG_I2C_BUS             BUS_I2C1
 #define MAG_HMC5883_ALIGN       CW270_DEG
 #define USE_MAG_HMC5883
-#define USE_MAG_QMC5883
-#define USE_MAG_IST8310
-#define USE_MAG_IST8308
-#define USE_MAG_MAG3110
-#define USE_MAG_LIS3MDL
+//#define USE_MAG_QMC5883
+//#define USE_MAG_IST8310
+//#define USE_MAG_IST8308
+//#define USE_MAG_MAG3110
+//#define USE_MAG_LIS3MDL
 
 #define USE_FLASHFS
 #define USE_FLASH_M25P16
@@ -58,7 +58,7 @@
 #define USE_UART3
 //#define USE_SOFTSERIAL1
 //#define USE_SOFTSERIAL2
-#define SERIAL_PORT_COUNT       5
+//#define SERIAL_PORT_COUNT       5
 
 #define UART1_TX_PIN            PA9
 #define UART1_RX_PIN            PA10
@@ -106,7 +106,7 @@
 #define ENABLE_BLACKBOX_LOGGING_ON_SPIFLASH_BY_DEFAULT
 
 #define DEFAULT_FEATURES        (FEATURE_TX_PROF_SEL | FEATURE_BLACKBOX | FEATURE_VBAT)
-#define DEFAULT_RX_TYPE         RX_TYPE_PPM
+#define DEFAULT_RX_TYPE         RX_TYPE_PWM
 
 #define USE_SPEKTRUM_BIND
 #define BIND_PIN                PB11 // UART3
